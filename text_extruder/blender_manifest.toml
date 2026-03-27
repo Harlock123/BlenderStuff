@@ -1,0 +1,18 @@
+schema_version = "1.0.0"
+
+id = "text_extruder"
+type = "add-on"
+version = "1.0.0"
+
+name = "Text Extruder"
+tagline = "3D text extrusions with chamfer and multi-material"
+maintainer = "lwatson"
+
+blender_version_min = "5.1.0"
+license = ["SPDX:GPL-3.0-or-later"]
+
+[build]
+paths_exclude_pattern = [
+    "__pycache__/",
+    "*.pyc",
+]
